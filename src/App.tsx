@@ -15,12 +15,10 @@ function App() {
       <Header />
       <HeroSection />
       <AboutSection />
-      <AboutSection />
       <BusinessOverview />
       <TechnicalRequirements />
       <FinancialProjections />
       <ComplianceSection />
-      <PoliciesSection />
       <PoliciesSection />
       <ContactSection />
       <Footer />
