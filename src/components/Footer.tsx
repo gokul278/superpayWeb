@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#home" className="hover:text-white transition-colors duration-200">About SuperPay</a></li>
+              <li><a href="#about" className="hover:text-white transition-colors duration-200">About SuperPay</a></li>
               <li><a href="#services" className="hover:text-white transition-colors duration-200">Our Services</a></li>
               <li><a href="#compliance" className="hover:text-white transition-colors duration-200">Security</a></li>
               <li><a href="#compliance" className="hover:text-white transition-colors duration-200">Compliance</a></li>
@@ -29,12 +29,12 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Partnership</h4>
+            <h4 className="font-semibold mb-4">Policies</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#technical" className="hover:text-white transition-colors duration-200">Gateway Partnership</a></li>
-              <li><a href="#technical" className="hover:text-white transition-colors duration-200">Technical Requirements</a></li>
-              <li><a href="#contact" className="hover:text-white transition-colors duration-200">Integration Support</a></li>
-              <li><a href="#financial" className="hover:text-white transition-colors duration-200">Documentation</a></li>
+              <li><a href="#policies" className="hover:text-white transition-colors duration-200">Terms & Conditions</a></li>
+              <li><a href="#policies" className="hover:text-white transition-colors duration-200">Privacy Policy</a></li>
+              <li><a href="#policies" className="hover:text-white transition-colors duration-200">Refund Policy</a></li>
+              <li><a href="#policies" className="hover:text-white transition-colors duration-200">Cancellation Policy</a></li>
             </ul>
           </div>
         </div>
@@ -44,9 +44,9 @@ const Footer: React.FC = () => {
             © 2025 SuperPay.in. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm">Security</a>
+            <a href="#policies" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+            <a href="#policies" className="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+            <a href="#compliance" className="text-gray-400 hover:text-white text-sm">Security</a>
           </div>
         </div>
       </div>

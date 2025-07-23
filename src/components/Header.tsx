@@ -30,7 +30,9 @@ const Header: React.FC = () => {
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-6">
               <a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">HOME</a>
+              <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">ABOUT</a>
               <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">SERVICES</a>
+              <a href="#policies" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">POLICIES</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">CONTACT US</a>
             </nav>
             <Shield className="h-5 w-5 text-green-600" />
@@ -65,11 +67,25 @@ const Header: React.FC = () => {
                 HOME
               </a>
               <a 
+                href="#about" 
+                onClick={closeMobileMenu}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 px-4 py-2 rounded-md hover:bg-gray-50"
+              >
+                ABOUT
+              </a>
+              <a 
                 href="#services" 
                 onClick={closeMobileMenu}
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 px-4 py-2 rounded-md hover:bg-gray-50"
               >
                 SERVICES
+              </a>
+              <a 
+                href="#policies" 
+                onClick={closeMobileMenu}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 px-4 py-2 rounded-md hover:bg-gray-50"
+              >
+                POLICIES
               </a>
               <a 
                 href="#contact" 
